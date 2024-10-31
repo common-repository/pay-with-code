@@ -1,0 +1,175 @@
+.pwcp-logs {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 95%;
+    width: 800px;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.dashboard-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff !important;
+    text-align: center;
+}
+
+.logs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1 1 calc(50% - 32px);
+    max-width: 360px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    border-top: 1px solid #ddd;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.badge {
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.bg-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.bg-warning {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.bg-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.no-logs {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-number {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+.page-number.current {
+    background-color: #8f94fb;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .pwcp-logs {
+        width: 90%;
+    }
+
+    .card {
+        flex: 1 1 calc(50% - 32px);
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .pwcp-logs {
+        width: 95%;
+    }
+
+    .card {
+        flex: 1 1 calc(50% - 32px);
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .pwcp-logs {
+        width: 95%;
+    }
+
+    .card {
+        flex: 1 1 calc(100% - 32px);
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .pwcp-logs {
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .dashboard-title {
+        font-size: 18px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .list-group-item {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .badge {
+        font-size: 10px;
+        padding: 3px 7px;
+    }
+
+    .no-logs {
+        font-size: 14px;
+    }
+
+    .pagination {
+        margin-top: 10px;
+    }
+
+    .page-number {
+        padding: 3px 7px;
+    }
+}

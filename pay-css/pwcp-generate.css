@@ -1,0 +1,99 @@
+.pwcp-dashboard {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            padding: 20px;
+        }
+        .pwcp-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .dashboard-card {
+            padding: 40px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+        }
+        .dashboard-title {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #007bff;
+        }
+        .form-group {
+            margin-bottom: 30px;
+        }
+   .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.pwcp-donation-button {
+    background-color: #ff7e5f;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pwcp-donation-button:hover {
+    background-color: #eb5e28;
+    transform: translateY(-2px);
+}
+
+
+        .alert {
+            margin-top: 20px;
+            font-size: 18px;
+            border-radius: 10px;
+        }
+        .generated-codes {
+            margin-top: 30px;
+        }
+        .generated-codes h3 {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .code-preview-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .code-preview {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 250px;
+            text-align: left;
+            transition: transform 0.2s;
+        }
+        .code-preview:hover {
+            transform: translateY(-5px);
+        }
+        .code {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        .code-details {
+            font-size: 14px;
+            color: #666;
+        }

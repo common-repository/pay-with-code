@@ -1,0 +1,45 @@
+   .wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 55vh;
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            font-family: 'Arial', sans-serif;
+        }
+        .pwcp-donation-container {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 50px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 600px;
+            width: 50%;
+        }
+        .pwcp-donation-heading {
+            color: #333;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .pwcp-donation-message {
+            color: #555;
+            font-size: 15px;
+            margin-bottom: 40px;
+        }
+        .pwcp-donation-button {
+            background-color: #ff7e5f;
+            border: none;
+            border-radius: 25px;
+            color: #fff;
+            font-size: 18px;
+            padding: 15px 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            display: inline-block;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .pwcp-donation-button:hover {
+            background-color: #eb5e28;
+            transform: translateY(-2px);
+        }
